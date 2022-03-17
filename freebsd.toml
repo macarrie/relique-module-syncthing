@@ -1,0 +1,8 @@
+name = "syncthing"
+module_type = "syncthing"
+backup_type = "diff"
+backup_paths = [
+	"/usr/local/etc/syncthing/",
+	"/var/log/syncthing.log",
+	"/Sync",
+]
